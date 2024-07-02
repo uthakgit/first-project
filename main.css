@@ -1,0 +1,32 @@
+.container{
+    background-color:#ecc;
+    height:100vh;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+ padding: 10px;
+ border-radius: 30px;
+ display: grid;
+ box-shadow: inset 5px 5px 12px #fff,  3px 3px 12px #fff;
+ grid-template-columns: repeat(4, 50px);
+
+}
+input{
+    grid-column:span 4;
+    padding: 10px;
+    
+    box-shadow: inset 5px 5px 10px #ecc, 5px 5px 10px #ecc;
+    color: rgb(red, green, blue);
+    font-size: 30px;
+    text-align: end;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+button{
+    height:48px;
+    width:50px;
+    margin: 8px;
+    border-radius: 50%;
+}
